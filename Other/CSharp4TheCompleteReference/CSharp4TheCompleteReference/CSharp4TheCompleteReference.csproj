@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="JoinThreads.cs" />
+    <Compile Remove="MoreThreads.cs" />
+    <Compile Remove="MultiThread.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\JoinThreads.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\MoreThreads.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\MultiThread.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\MultiThreadImproved.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\PassArgDemo.cs" />
+    <Compile Remove="MultithreadedProgrammingPart1\PriorityDemo.cs" />
+    <Compile Remove="MultiThreadImproved.cs" />
+    <Compile Remove="PassArgDemo.cs" />
+    <Compile Remove="PriorityDemo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MultithreadedProgrammingPart1\JoinThreads.cs" />
+    <None Include="MultithreadedProgrammingPart1\MoreThreads.cs" />
+    <None Include="MultithreadedProgrammingPart1\MultiThread.cs" />
+    <None Include="MultithreadedProgrammingPart1\MultiThreadImproved.cs" />
+    <None Include="MultithreadedProgrammingPart1\PassArgDemo.cs" />
+    <None Include="MultithreadedProgrammingPart1\PriorityDemo.cs" />
+  </ItemGroup>
+
+</Project>
